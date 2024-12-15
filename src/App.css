@@ -1,0 +1,7 @@
+.app {
+  padding-top: 3rem;
+}
+.app .container {
+  display: flex;
+  margin-top: 0.6rem;
+}

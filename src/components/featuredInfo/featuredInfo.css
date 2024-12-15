@@ -1,0 +1,49 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.featured .featured-item {
+  flex: 1;
+  margin: 0 1.2rem;
+  padding: 1.8rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  -moz-box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+}
+.featured .featured-item .featured-title {
+  font-size: 1.2rem;
+}
+.featured .featured-item .featured-money-container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.featured .featured-item .featured-money-container .featured-money {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.featured-money-container .featured-money-rate {
+  display: flex;
+  align-items: center;
+  margin-left: 1.2rem;
+}
+
+.featured-item .featured-money-container .featured-money-rate .featured-icon {
+  font-size: 1rem;
+  margin-left: 5px;
+  color: green;
+}
+
+.featured-money-container .featured-money-rate .featured-icon.negatif {
+  font-size: 1rem;
+  margin-left: 5px;
+  color: red;
+}
+.featured-item .featured-sub {
+  font-size: 1rem;
+  color: gray;
+}

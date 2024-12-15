@@ -1,0 +1,9 @@
+.home {
+  flex: 4;
+}
+.home .container {
+}
+.home-widgets {
+  display: flex;
+  margin: 1.2rem;
+}

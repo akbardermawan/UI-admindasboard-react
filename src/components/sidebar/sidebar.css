@@ -1,0 +1,36 @@
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 3rem);
+  position: sticky;
+  background-color: rgba(236, 234, 255, 0.664);
+}
+.sidebar .sidebar-wrapper {
+  padding: 1.25rem;
+}
+.sidebar .sidebar-wrapper .sidebar-menu {
+  margin-bottom: 1rem;
+}
+.sidebar .sidebar-wrapper .sidebar-menu h3 {
+  font-size: 1rem;
+  color: gray;
+}
+.sidebar .sidebar-wrapper .sidebar-menu ul li {
+  list-style: none;
+}
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-list-item {
+  display: flex;
+  padding: 0.3rem;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-list-item.active,
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-list-item:hover {
+  background-color: rgba(150, 138, 255, 0.664);
+}
+a {
+  color: inherit;
+  font-size: inherit;
+  text-align: none;
+}

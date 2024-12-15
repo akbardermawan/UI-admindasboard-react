@@ -1,0 +1,55 @@
+.widgetSm {
+  flex: 1;
+  -webkit-box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  -moz-box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  padding: 1.2rem;
+  margin-right: 1.2rem;
+}
+.widgetSm .widgetSm-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.widgetSm .widgetSm-list {
+  padding: 0;
+  margin-top: 1rem;
+  list-style: none;
+}
+.widgetSm .widgetSm-list .widgetSm-list-item-container {
+  display: flex;
+}
+.widgetSm .widgetSm-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+.widgetSm .widgetSm-list-item img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.widgetSm .widgetSm-list-item .widgetSm-user {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.widgetSm .widgetSm-list-item .widgetSm-user .widgetSm-user-title {
+  font-size: 0.8rem;
+  color: gray;
+}
+.widgetSm .widgetSm-list-item .widgetSm-button {
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.widgetSm .widgetSm-list-item .widgetSm-button .widgetSm-icon {
+  margin-right: 0.2rem;
+  font-size: 1rem;
+}

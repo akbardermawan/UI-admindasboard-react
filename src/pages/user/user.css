@@ -1,0 +1,131 @@
+.user {
+  flex: 4;
+  padding: 1.2rem;
+}
+.user .user-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user .user-add-button {
+  width: 5rem;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+}
+
+.user .user-container {
+  display: flex;
+  margin-top: 1.2rem;
+}
+.user .user-container .user-show {
+  flex: 1;
+  padding: 1.2rem;
+
+  -webkit-box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  -moz-box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+}
+.user .user-container .user-update {
+  flex: 3;
+  padding: 1.2rem;
+  -webkit-box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  -moz-box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  box-shadow: 4px 6px 18px 0px rgba(148, 148, 148, 0.74);
+  margin-left: 1.2rem;
+}
+.user .user-container .user-show .user-show-top {
+  display: flex;
+  align-items: center;
+}
+.user-show-top .user-show-img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-show-top .user-show-top-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.2rem;
+}
+.user-show-top .user-show-top-title .user-show-username {
+  font-weight: 600;
+}
+.user-show-top .user-show-top-title .user-show-title {
+  font-weight: 300;
+  color: gray;
+}
+.user-show-bottom {
+  margin-top: 1rem;
+}
+.user-show-bottom .user-show-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+}
+.user-show-bottom .user-show-info {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.user-show-bottom .user-show-info .user-show-icon {
+  font-size: 1rem;
+}
+.user-show-bottom .user-show-info .user-show-info-title {
+  margin-left: 0.6rem;
+}
+.user-update .user-update-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.user-update .user-update-form {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2rem;
+}
+.user-update .user-update-form .user-update-left .user-update-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+.user-update-left .user-update-item .user-update-input {
+  border: none;
+  width: 15.5rem;
+  height: 1.6rem;
+  border-bottom: 1px solid gray;
+  margin-top: 0.5rem;
+}
+.user-update .user-update-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-update .user-update-right .user-update-upload {
+  display: flex;
+  align-items: center;
+}
+.user-update .user-update-right .user-update-upload .user-update-img {
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 1.2rem;
+}
+.user-update .user-update-right .user-update-upload .user-update-icon {
+  cursor: pointer;
+}
+.user-update .user-update-right .user-update-button {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}

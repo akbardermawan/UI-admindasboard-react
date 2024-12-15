@@ -1,0 +1,59 @@
+.newUser {
+  flex: 4;
+  padding: 2rem;
+}
+.newUser .newUser-title {
+}
+.newUser .newUser-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.newUser .newUser-form .newUser-item {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6rem;
+  margin-right: 1.1rem;
+}
+.newUser .newUser-form .newUser-item label {
+  margin-bottom: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+}
+.newUser .newUser-form .newUser-item input {
+  height: 2rem;
+  padding: 0.6rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.newUser .newUser-form .newUser-item .newUser-gander {
+  display: flex;
+}
+.newUser .newUser-form .newUser-item .newUser-gander input {
+  margin-top: 1rem;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1.1rem;
+}
+.newUser .newUser-form .newUser-item .newUser-gander label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+.newUser .newUser-form .newUser-item .newUser-select {
+  height: 2.5rem;
+  border-radius: 5px;
+}
+.newUser .newUser-form .newUser-button {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
